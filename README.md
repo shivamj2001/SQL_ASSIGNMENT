@@ -71,6 +71,6 @@
 - All dates use `YYYY-MM-DD` format with no NULL values in the dataset
 - Each `enquiry_id` and `txn_id` is unique and non-NULL in its table
 - The 30-day window includes the transaction date (Jan 1 - Jan 31 counts as 30 days)
-- Task 1 shows 0 counts when no records exist for a user/date
+- If a user has no enquiries on a date, `count_enqs` shows 0 and vice-versa.
 - Task 2 links transactions only to the earliest qualifying enquiry.
 - A transaction can only be linked to **one** enquiry, but one enquiry can be linked to **multiple** transactions(One to Many relationship).
