@@ -30,7 +30,7 @@
    - Final aggregation merges the partial counts
 
 ### Task 1: Enquiry and Transaction Counts (Output)
-![task1_output](Task_1.png)
+![task1_output](Op_Task_1.png)
 
 
 
@@ -63,7 +63,7 @@
 
 
 ### Task 2: Enquiry Conversion Mapping (Output)
-![task2_output](Task_2.png)
+![task2_output](Op_Task_2.png)
 
 
 ## Assumptions
