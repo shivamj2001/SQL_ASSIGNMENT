@@ -43,7 +43,7 @@
    - Array output format
 
 2. **Solution Design**:
-   - FFind all valid transaction-enquiry pairs (same user, within 30 days)
+   - Find all valid transaction-enquiry pairs (same user, within 30 days)
    - For each transaction, keep only the earliest qualifying enquiry.
    - Group transactions by their earliest linked enquiry.
    - Format with arrays
@@ -57,7 +57,7 @@
    ```
 
 4. **Key Insights**:
-   - Window functions efficiently handle "earliest" requirement by assigning row number .
+   - Window functions to assaign row number that efficiently handle "earliest" requirement by assigning row number .
    - LEFT JOIN preserves unconverted enquiries
    - ARRAY_AGG creates the required output format
 
